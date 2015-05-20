@@ -42,5 +42,5 @@ LOCAL_CFLAGS_mips64 += -DV8_TARGET_ARCH_MIPS64 \
 LOCAL_CFLAGS_x86 += -DV8_TARGET_ARCH_IA32
 LOCAL_CFLAGS_x86_64 += -DV8_TARGET_ARCH_X64
 
-
-
+# type-punning to incomplete type in api.cc
+LOCAL_CFLAGS += -fno-strict-aliasing
