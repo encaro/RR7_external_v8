@@ -13,6 +13,8 @@ endif
 # Set up the target identity
 LOCAL_MODULE := libv8
 LOCAL_MODULE_CLASS := STATIC_LIBRARIES
+LOCAL_CLANG := true
+
 generated_sources := $(call local-generated-sources-dir)
 
 LOCAL_MULTILIB := both

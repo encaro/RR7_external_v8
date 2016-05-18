@@ -3,6 +3,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := d8
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_CLANG := true
 
 generated_sources := $(call local-generated-sources-dir)
 
