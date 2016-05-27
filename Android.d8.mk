@@ -7,6 +7,7 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 generated_sources := $(call local-generated-sources-dir)
 
 LOCAL_CXX_STL := libc++
+LOCAL_ARM_MODE := arm
 
 LOCAL_SRC_FILES := \
     src/d8.cc \
