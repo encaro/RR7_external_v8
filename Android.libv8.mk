@@ -18,6 +18,7 @@ LOCAL_CLANG := true
 generated_sources := $(call local-generated-sources-dir)
 
 LOCAL_MULTILIB := both
+LOCAL_ARM_MODE := arm
 
 # Android.v8common.mk defines V8_LOCAL_JS_LIBRARY_FILES, LOCAL_SRC_FILES,
 # LOCAL_CFLAGS, LOCAL_SRC_FILES_arch, and LOCAL_CFLAGS_arch
