@@ -93,6 +93,8 @@ LOCAL_CFLAGS += \
 	-Wno-import \
 	-Wno-format \
 	-Wno-unused-parameter \
+	-Wno-sign-compare \
+	-Wno-missing-field-initializers \
 	-Wno-inconsistent-missing-override \
 	-fno-exceptions \
 	-fvisibility=hidden \
